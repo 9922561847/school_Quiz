@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+<style>
+    position: absolute;
+    right: 0;
+    lect: 0;
+</style>
+<div class="col-lg-8 border border-success p-4 m-4 mx-auto">
+    <h1>Welcome to Quiz Section </h1>
+    <form action="test" method="post">
+         {% csrf_token %}
+        <div class="form-group">
+            <input type="submit" value="Start Quiz" class="btn btn-success">
+            </div>
+    </form>
+    </div>
+
+</body>
+</html>
