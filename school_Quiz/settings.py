@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'z(w#67fbern)uke3k7d*o*3@qc(6g_4k@gijau(6i^uzl^kfmn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['quizscho.herokuapp.com/','127.0.0.1']
 
 
 # Application definition
